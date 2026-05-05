@@ -19,7 +19,7 @@ jobs:
             qt-modules: 'qtcharts qt5compat qtshadertools'
             mingw-version: '11.2.0'
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         fetch-depth: 0
         submodules: true
@@ -80,7 +80,7 @@ jobs:
       shell: bash
     ## Upload
     - name: Upload artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: build-Qt-${{ matrix.qt-version }}
         path: release/
@@ -90,7 +90,7 @@ jobs:
     ## Build installer
     - if: env.create_windows_installer == 1
       name: Get installer configuration
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         repository: ${{ github.repository_owner }}/${{ env.windows_installer_repo }}
         fetch-depth: 0
@@ -106,7 +106,7 @@ jobs:
       shell: bash
     ## Upload installer
     - name: Upload installer
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: installer-Qt-${{ matrix.qt-version }}
         path: '*.exe'

@@ -8,13 +8,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Setup environment
       run: |
         sed -i -e '/^#/d' .github/config.env
         sed -i -e '/^$/d' .github/config.env
         cat .github/config.env >> "${GITHUB_ENV}"
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         repository: ${{ github.repository_owner }}/${{ env.docs_repo }}
         token: ${{ secrets.PUSH_TOKEN }}
