@@ -11,72 +11,47 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+[![GPLv3 License][license-shield]][license-url]
 
-
-
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Open-Typer/Open-Typer">
+  <a href="https://github.com/vetrivln/tamil99/">
     <img src="res/linux-release/usr/share/pixmaps/open-typer.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Open-Typer</h3>
+<h3 align="center">Open-Typer Tamil99</h3>
 
   <p align="center">
-    Free and open source typing tutor
+    Free and open source typing tutor with Tamil99 keyboard support
     <br />
-    <a href="https://open-typer.github.io"><strong>Explore the docs »</strong></a>
+    <a href="https://open-typer.github.io"><strong>Explore the original docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Open-Typer/Open-Typer/issues">Report Bug</a>
+    <a href="https://github.com/vetrivln/tamil99/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Open-Typer/Open-Typer/issues">Request Feature</a>
+    <a href="https://github.com/vetrivln/tamil99/issues">Request Feature</a>
   </p>
 </div>
 
+---
 
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#building">Building</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-  </ol>
-</details>
-
-
-
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
 [![Open-Typer screenshot][product-screenshot]](https://open-typer.github.io)
 
-Open-Typer is an open source typing tutor application which aims to make learning to touch type easier.
+This project is a fork of **Open-Typer**, extended with support for the **Tamil99 keyboard layout**, a standard widely used for typing in Tamil.
 
-It supports multiple keyboard layouts and provides auto-generated lessons.
+### ✨ Key Features
+- Support for **Tamil99 keyboard layout**
+- Auto-generated typing lessons adapted for Tamil characters
+- Cross-platform: Windows, Linux, and macOS
+- Clean and simple UI powered by Qt
 
-Open-Typer can be used on Windows, Linux and macOS.
+Open-Typer aims to make learning touch typing easier, and this fork expands that goal to Tamil language users.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+---
 
 ### Built With
 
@@ -84,80 +59,94 @@ Open-Typer can be used on Windows, Linux and macOS.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+---
 
-
-<!-- GETTING STARTED -->
-## Getting started
+## Getting Started
 
 ### Building
 
-Follow the instructions in the [documentation](https://open-typer.github.io/docs/md_docs_data_pages_Build_instructions.html).
+Follow the original build instructions:
+https://open-typer.github.io/docs/md_docs_data_pages_Build_instructions.html
 
 ### Installation
 
-Follow the instructions in the [documentation](https://open-typer.github.io/docs/index.html).
+See:
+https://open-typer.github.io/docs/index.html
+
+> Note: Tamil99 support is included by default in this fork.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ROADMAP -->
+---
+
 ## Roadmap
 
-See the [open issues](https://github.com/Open-Typer/Open-Typer/issues) for a list of proposed features (and known issues).
+- [x] Tamil99 keyboard support
+- [ ] Tamil lesson packs
+- [ ] UI localization (Tamil language interface)
+- [ ] Additional Indian language layouts
+
+See the issues page for more ideas.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+---
 
-
-<!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are welcome, especially for:
+- Improving Tamil typing lessons
+- Fixing layout mapping issues
+- Adding localization support
 
-If you have a suggestion that would make Open-Typer better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+Steps:
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin AmazingFeature`)
-5. Open a Pull Request
+1. Fork the Project  
+2. Create your Feature Branch (`git checkout -b feature/TamilImprovement`)  
+3. Commit your Changes (`git commit -m 'Improve Tamil99 support'`)  
+4. Push to the Branch (`git push origin feature/TamilImprovement`)  
+5. Open a Pull Request  
 
-To ensure that the code style is same in all C++ source files, please use `clang-format`:
+### Code Style
 
-`sudo apt-get install clang-format` (Debian/Ubuntu)
+Install clang-format:
 
-Run `clang-format` on all C++ source and header files you've changed:
+`sudo apt-get install clang-format`
+
+Run:
 
 `clang-format -i src/*.cpp`
 
-Omitting this step will cause the checks in your pull request to fail.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+---
 
-
-<!-- LICENSE -->
 ## License
 
-Distributed under the GNU General Public License (version 3.0). See [LICENSE](LICENSE) for more information.
+Distributed under the GNU General Public License v3.0.
+
+See `LICENSE` for more information.
+
+---
+
+## Acknowledgements
+
+- Original project: https://github.com/Open-Typer/Open-Typer
+- Tamil99 layout standard contributors
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+---
 
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Open-Typer/Open-Typer.svg?style=for-the-badge
-[contributors-url]: https://github.com/Open-Typer/Open-Typer/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Open-Typer/Open-Typer.svg?style=for-the-badge
-[forks-url]: https://github.com/Open-Typer/Open-Typer/network/members
-[stars-shield]: https://img.shields.io/github/stars/Open-Typer/Open-Typer.svg?style=for-the-badge
-[stars-url]: https://github.com/Open-Typer/Open-Typer/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Open-Typer/Open-Typer.svg?style=for-the-badge
-[issues-url]: https://github.com/Open-Typer/Open-Typer/issues
-[license-shield]: https://img.shields.io/github/license/Open-Typer/Open-Typer.svg?style=for-the-badge
-[license-url]: https://github.com/Open-Typer/Open-Typer/blob/master/LICENSE.txt
+<!-- MARKDOWN LINKS -->
+[contributors-shield]: https://img.shields.io/github/contributors/vetrivln/tamil99.svg?style=for-the-badge
+[contributors-url]: https://github.com/vetrivln/tamil99/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/vetrivln/tamil99.svg?style=for-the-badge
+[forks-url]: https://github.com/vetrivln/tamil99/network/members
+[stars-shield]: https://img.shields.io/github/stars/vetrivln/tamil99.svg?style=for-the-badge
+[stars-url]: https://github.com/vetrivln/tamil99/stargazers
+[issues-shield]: https://img.shields.io/github/issues/vetrivln/tamil99.svg?style=for-the-badge
+[issues-url]: https://github.com/vetrivln/tamil99/issues
+[license-shield]: https://img.shields.io/github/license/vetrivln/tamil99.svg?style=for-the-badge
+[license-url]: https://github.com/vetrivln/tamil99/blob/master/LICENSE.txt
 [product-screenshot]: docs-data/res/images/main_window_light.png
-[Qt]: https://img.shields.io/badge/Qt-000000?style=flat-square&logo=qt&logoColor=qt
-[Qt-url]: https://www.qt.io
-
